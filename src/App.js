@@ -12,6 +12,8 @@ const App = () => {
     <Navbar/>
       <Routes>
       <Route path="/" element={<Textform />} />
+    <Route path="/contactus" element={<Textform />} />
+    <Route path="/" element={<Textform />} />
       </Routes>
     </Router>
   
