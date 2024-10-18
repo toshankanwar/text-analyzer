@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from "./components/Navbar";
 import Textform from "./components/Textform"
+import Contact from "./components/Contact"
+import Aboutus from "./components/Aboutus"
 
 
 
@@ -12,8 +14,8 @@ const App = () => {
     <Navbar/>
       <Routes>
       <Route path="/" element={<Textform />} />
-    <Route path="/contactus" element={<Textform />} />
-    <Route path="/" element={<Textform />} />
+    <Route path="/contactus" element={<Contact />} />
+    <Route path="/about" element={<Aboutus />} />
       </Routes>
     </Router>
   
